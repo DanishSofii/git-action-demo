@@ -32,7 +32,7 @@ jobs:
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
-    - name : Build docker image and push to docker hub
+    - name : Build docker ,  image and push to docker hub
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: danishsofii/gas
